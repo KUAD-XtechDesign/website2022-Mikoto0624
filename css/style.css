@@ -12,15 +12,15 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(8, 74, 62);
   position: relative;
 }
 
 body {
-  font-size: 16px;
+  font-size: 50px;
   line-height: 1.6;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #333333;
+  font-family: "Bauhaus 93", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  color: #b2c8c2;
   letter-spacing: 0.05em;
 }
 
@@ -92,7 +92,7 @@ header .inner {
 /* ロゴ */
 #header_logo img {
   display: block;
-  width: 100px;
+  width: 50px;
 }
 
 /* メニュー */
@@ -165,7 +165,7 @@ header .inner {
 footer
 ======================================================*/
 footer {
-  background-color: #333;
+  background-color: rgb(8, 74, 62);
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -197,10 +197,10 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: #fff;
-  font-weight: bold;
-  background-image: url(../images/top.jpg);/* 背景画像 */
-  background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
+  color: #ffffff;
+  font-weight:bold;
+  background-image: url(../images/shakehands.jpg);/* 背景画像 */
+  background-size: contain;/* 背景画像のサイズ 要素いっぱいに表示 */
   background-position: center center;/* 背景画像の位置 */
   background-attachment: fixed;/* スクロールしたときの背景画像の位置 固定 */
   
@@ -254,7 +254,7 @@ a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
 }
 
 /* =================================================
-worksページ
+reportページ
 ================================================= */
 
 .thumb_list {
@@ -264,19 +264,18 @@ worksページ
 }
 
 .thumb_list li {
-  width: 25%;
+  width: 100%;
   padding: 10px;
 }
 
-@media (max-width: 900px) {
-  .thumb_list li {
-    width: 50%;
+@media (max-width: 0px) {
+
   }
 }
 
 @media (max-width: 500px) {
   .thumb_list li {
-    width: 100%;
+    width:100%;
   }
 }
 
@@ -304,41 +303,34 @@ worksページ
 }
 
 /*======================================================
-reportページ
+foodページ
 ======================================================*/
 
 .report_eye_catch {
-  height: 300px;
+  height: 200px;
   background-image: url(../images/report.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: rgb(17, 112, 73);
   font-weight: bold;
 }
 
-.report {
-  border: 1px solid #ccc;
-  padding: 40px;
-}
 
 .report .outline {
   margin-bottom: 40px;
   display: flex;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 30px) {
   .report .outline {
     display: block;
   }
 }
 
-.report .outline .pic {
-  width: 45%;
-  border: 3px solid #999;
-}
+
 
 .report .outline .txt {
   flex: 1;
@@ -373,20 +365,28 @@ reportページ
   margin: auto;
 }
 
+
 /* =================================================
 profileページ
 ================================================= */
 .profile_container{
-  writing-mode: vertical-rl;
+  writing-mode: horizontal-tb;
   width: 100%;
-  height: 300px;
+  height: 500px;
   overflow: auto;
+  /* background-image: url(../images/report.jpg); */
+  background-size: cover;
+  background-position: center center;
+
 }
 
 .profile_container h3{
   margin-right: 30px;
 }
-
+/* 横並び用 */
+.flex_row{
+  display: flex;
+}
 
 
 /*======================================================
