@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(8, 74, 62);
   position: relative;
 }
 
@@ -20,7 +20,7 @@ body {
   font-size: 50px;
   line-height: 1.6;
   font-family: "Bauhaus 93", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #333333;
+  color: #b2c8c2;
   letter-spacing: 0.05em;
 }
 
@@ -165,7 +165,7 @@ header .inner {
 footer
 ======================================================*/
 footer {
-  background-color: #333;
+  background-color: rgb(8, 74, 62);
   color: #fff;
   text-align: center;
   padding: 20px;
